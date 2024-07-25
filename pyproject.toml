@@ -18,11 +18,15 @@ distribution = false
 test = [
     "pytest-cov>=5.0.0",
 ]
+[tool.pytest.ini_options]
+pythonpath = [
+ ".", "src",]
 
 [tool.pdm.scripts]
 ctest = "pytest --cov"
 stest = "pytest -s"
 test = "pytest"
+giti = "pip install git+https://github.com/mangG907/manggee_args_history.git@0.2.0/args"
 
 [project.scripts]
 my-history = 'manggee_args_history.cli:cmd'
