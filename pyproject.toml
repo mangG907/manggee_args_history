@@ -33,6 +33,6 @@ my-history = 'manggee_args_history.cli:cmd'
 
 
 [project.urls]
-Homepage = "https://github.com/mangG907/manggee_args_history"
+Homepage = "https://github.com/mangG907/manggee_args_history/issues"
 Issues = "https://github.com/mangG907/manggee_args_history/issues"
 
