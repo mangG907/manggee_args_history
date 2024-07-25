@@ -20,7 +20,7 @@ test = [
 ]
 
 [project.scripts]
-my_history = 'manggee_args_history.cli:cmd'
+my-history = 'manggee_args_history.cli:cmd'
 
 
 [project.urls]
