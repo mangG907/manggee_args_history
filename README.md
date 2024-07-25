@@ -1,4 +1,6 @@
 # manggee_args_history
+- parquet 사용을 기반으로 예 다 못 적어서 나중에 적겟습니다..
+
 
 
 ## 사용법
@@ -19,3 +21,19 @@ mkdir 1932
   pdm 1220
    rm 1104
 ```
+
+### Dev env setting
+```
+
+$ git clone <URL>
+$ cd <PJT_NAME>
+$ pdm install
+$ [pdm test|pytest]
+
+# option
+$ pdm add -dG test pytest-cov
+```
+
+
+### ref
+- https://pdm-project.org/latest/usage/dependency/#add-development-only-dependencies
