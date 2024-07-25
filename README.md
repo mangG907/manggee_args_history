@@ -32,6 +32,7 @@ $ pyenv global clean
 $ rm -rf .venv
 $ pdm venv create
 $ source .venv/bin/activate
+$ pdm add -dG test pytest pytest-cov
 $ pdm install
 $ [pdm test|pytest]
 
