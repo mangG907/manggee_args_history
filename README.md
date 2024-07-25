@@ -34,6 +34,12 @@ $ [pdm test|pytest]
 $ pdm add -dG test pytest-cov
 ```
 
+### deploy
+```bash
+#dev branch
+$ pip install git+ https://github.com/mangG907/manggee_args_history.git@0.2.0/args
+```
+
 
 ### ref
 - https://pdm-project.org/latest/usage/dependency/#add-development-only-dependencies
