@@ -18,3 +18,8 @@ distribution = false
 test = [
     "pytest-cov>=5.0.0",
 ]
+
+[project.urls]
+Homepage = "https://github.com/mangG907/manggee_args_history"
+Issues = "https://github.com/mangG907/manggee_args_history/issues"
+
